@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/181b93e959.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Rohit.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi I am <span>Rohit</span><br>Barnwal from India.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- .................about............ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images\Rohitpic.jpg" alt="ERROR!">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>Interested in the role of a Software Engineer where I can contribute my analytical skills and
+                        knowledge acquired by pursuing my MCA (3-year course). Looking for a dynamic and progressive
+                        company where my skills are utilized in the maximum way possible.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Hobbies')">Hobbies</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li> <span>UI/UX</span><br>HTML, CSS, JAVASCRIPT, BOOTSTRAP, jQUERY</li>
+                            <li> <span>Other skills</span><br>SDLC MODELS, NETWORKING</li>
+                            <li> <span>Programming</span><br>C, Python, C#, REACTJS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li> <span> </span>Fresher</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li> <span>2022</span><br>Master of Computer Application(MCA) 7.50 CGPA</li>
+                            <li> <span>2019</span><br>Bachelor of Scienece(B.Sc.).</li>
+                            <li> <span>2016</span><br>Intermediate 10+2 with 82%</li>
+                            <li> <span>2014</span><br>High School with 82%</li>
+                            <li> <span>2018</span><br>O level and CCC from NIELIT</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Hobbies">
+                        <ul>
+                            <li> <span> </span>Play Cricket</li>
+                            <li> <span> </span>Recite Poetry</li>
+                            <li> <span> </span>Writing Poetry</li>
+                            <li> <span> </span>Singing Song</li>
+                            <li> <span> </span>Cooking Food</li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ............................about............... -->
+
+
+
+        <!-- ....................services...................... -->
+        <div id="services">
+            <div class="container">
+                <h1 class="subtitle"> My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-sharp fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et minus a adipisci ea reiciendis
+                            unde beatae officiis. Dicta pariatur placeat debitis libero ullam vitae repudiandae earum
+                            ab. Obcaecati, dolores unde.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX </h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et minus a adipisci ea reiciendis
+                            unde beatae officiis. Dicta pariatur placeat debitis libero ullam vitae repudiandae earum
+                            ab. Obcaecati, dolores unde.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>App Design </h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et minus a adipisci ea reiciendis
+                            unde beatae officiis. Dicta pariatur placeat debitis libero ullam vitae repudiandae earum
+                            ab. Obcaecati, dolores unde.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ............................services...................... -->
+
+
+        <!-- ..................................portfolio & my work....................... -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="Images\pexels-thisisengineering-3861967.jpg">
+                        <div class="layer">
+                            <h3>Git Hub</h3>
+                            <p>The app conects you to talented people around the world. Download it from play store.</p>
+                            <a href="#"> <i class="fa-sharp fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images\pexels-luis-gomes-546819.jpg">
+                        <div class="layer">
+                            <h3>W3 Schools.com</h3>
+                            <p> I have completed</p>
+                            <a href="https://www.w3profile.com/rohitkrb1998"> <i class="fa-sharp fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images\pexels-markus-spiske-177598.jpg">
+                        <div class="layer">
+                            <h3>Stack Overflow</h3>
+                            <p>The app conects you to talented people around the world. Download it from play store.</p>
+                            <a href="#"> <i class="fa-sharp fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+        <!-- .......................................portfolio....................... -->
+
+
+
+
+        <!-- ...........................................contact............................ -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p> <a href="mailto:mail@rohitkrb1998@gmail.com"><i class="fa-sharp fa-solid fa-paper-plane"></i>rohitkrb1998@gmail.com</a></p>
+                        <p><a href="tel:+918318327084"><i class="fa-solid fa-square-phone"></i>+918318327084</a></p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/profile.php?id=100009662043482"><i class="fa-brands fa-square-facebook" style=color:#3b5998></i></a>
+                            <a href="https://instagram.com/rohitkishor_1998?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-square-instagram" style=color:#f9425d></i></a>
+                            <a href="https://twitter.com/RohitKishorBar1?t=6DJ20Jj3e3TQ5805zjOl-w&s=08" style=color:#4db7eb><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/rohit-barnwal-025a70194"><i class="fa-brands fa-linkedin" style=color:#3b85ac></i></a>
+                            <a href="https://wa.me/8318327084"><i class="fa-brands fa-square-whatsapp" style=color:#12af0a></i></a>
+                            <a href="https://t.me/rohitkishor1998"> <i class="fa-brands fa-telegram"></i></a>
+                           
+                        </div>
+                        <a href="Images\Rohit Kumar barnwal.pdf" download class=" btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your mail" required>
+                            <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                            <button type="submit" class="btn btn2"> Submit</button>
+
+                        </form>
+                        <span id="msg"> </span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &copy; Rohit. Created by Rohit<i class="fa-duotone fa-bullseye-arrow"></i> </p>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- ...........................................contact............................ -->
+        <script>
+            //   document.querySelector("#p");
+            var tablinks = document.getElementsByClassName("tab-links");
+            console.log(tablinks);
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <!-- ..........................sidemenu............................. -->
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            console.log(sidemenu);
+            function openmenu(){
+                sidemenu.style.right="0";
+            
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            
+            }
+
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyvmaegpI3W82nCtrz34v4Zh6aTjSg-TxWQNPSXhSvxZssFFz7NTRLo1YfOlrJiPRXnVg/exec'
+                const form = document.forms['google-sheet']
+                const msg= document.getElementById("msg")
+
+                form.addEventListener('submit', e => {
+                    e.preventDefault()
+                    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                        .then(response => {
+                            msg.innerHTML="Message sent successfully"
+                            setTimeout(function(){
+           msg.innerHTML=""
+                            },5000)
+                            form.reset()
+
+                        })
+                        .catch(error => console.error('Error!', error.message))
+                })
+        </script>
+</body>
+
+</html>
